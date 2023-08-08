@@ -55,7 +55,6 @@
 // let newArray6 = [];
 
 // a = 0;
-
 // for (let i = 0; i < arr6.length; i++) {
 //   if (arr6[i] == arr6[i + 1]) {
 //     newArray6[a] = arr6[i];
@@ -86,19 +85,25 @@
 // ====================================
 // // question no 9
 
-// let A = [6, 5, 4, 4];
+// let array = [1,3,2];
 // let ismonatic = null;
-// for (let i = 0; i < A.length - 1; i++) {
-//   if (A[i] > A[i + 1]) {
-//     ismonatic = true;
-//     console.log("true2");
-//   } else if (A[i] <= A[i + 1]) {
-//     ismonatic = true;
-//     console.log("true4");
-//   } else {
-//     console("asduasdhuh");
+// let ascending = false;
+// let descending = false;
+
+// for (let i = 0; i < array.length; i++) {
+//   if (array[i] < array[i + 1]) {
+//     ascending = true;
+//   } else if (array[i] > array[i + 1]) {
+//     descending = true;
 //   }
 // }
+
+// if (ascending && descending) {
+//   console.log(`Given Array is not Monotonic`);
+// } else {
+//   console.log(`Given Array is  Monotonic`);
+// }
+
 // ===================================================
 // question no 19 complete
 
@@ -268,26 +273,7 @@
 //       }
 //   }
 //   console.log(newStr);
-// QUESTION NO 17 INCOMPLETE
-
-// const str2 = "hhhjjjuunkkkhh"
-// let count=0
-// let srt3=""
-
-// for (i=0; i<str2.length; i++){
-
-//     for (let j=0; j<str2.length; j++){
-//       if (str2[i]==str2[j] ){
-//         count+=1
-//         srt3+=`${str2[i]}${count}`
-
-//       }
-
-//     }
-//     count=0
-
-// }
-// console.log(srt3);
+// =======================================
 
 // let fullName = "Robin Singh";
 
@@ -316,21 +302,21 @@
 // let fullNameArray = [firsname, secondname];
 
 // console.log(fullNameArray);
-
+// ==========================================
 // question no 21
 
-function arraySum (array){
-    let sum=0
-    for (let i=0; i<array.length; i++){
-        sum+=array[i]
-    }
+// function arraySum (array){
+//     let sum=0
+//     for (let i=0; i<array.length; i++){
+//         sum+=array[i]
+//     }
 
-    return console.log(`the sum is ${sum}`)
-}
-let array =[12,32,43]
-arraySum(array)
+//     return console.log(`the sum is ${sum}`)
+// }
+// let array =[12,32,43]
+// arraySum(array)
 
-
+// ===========================================
 // question no 22
 // function AgetoDays(age){
 //     let days = age * 365.2425
@@ -340,10 +326,7 @@ arraySum(array)
 
 // AgetoDays(20)
 
-
-
-
-
+// ====================================================
 
 // // question no 23
 
@@ -373,7 +356,7 @@ arraySum(array)
 
 // console.log(`Today is ${day}
 // Current time is : ${hour} ${state} : ${minutes}  : ${seconds}`)
-
+// =====================================================================
 // question no 24
 // let date = new Date();
 
@@ -391,7 +374,7 @@ arraySum(array)
 // }
 
 // console.log(`the date is ${day}/${month}/${year}`);
-
+// ==============================================================
 // question no 25
 
 // let str="mobile"
@@ -402,6 +385,7 @@ arraySum(array)
 // }
 
 // console.log(newStr);
+// ==============================================================
 
 // question no 26
 // let endYear=2050
@@ -411,11 +395,9 @@ arraySum(array)
 //     if (day===0){
 //         console.log(`1st January of year ${i} is a Sunday` );
 //     }
-    
+
 // }
-
-
-
+// ==============================================================
 
 // question no 27
 // let isFifty=false
@@ -431,9 +413,10 @@ arraySum(array)
 // let result = Sum(25,25)
 
 // console.log(`The result is ${result}`);
+// ==============================================================
 
 // question no 28 {
-x=100
+// x=100
 // let isClose=false
 
 // let Numbers=(a,b)=>{
@@ -453,13 +436,13 @@ x=100
 // } else if(a<x && b>x ) {
 //         if (x-a <b-x){
 //             return a
-//         } else{ 
+//         } else{
 //             return b
 //         }
 // } else if (b<x && a>x){
 //     if (x-b <a-x){
 //         return b
-//     } else{ 
+//     } else{
 //         return a
 //     }
 // }
@@ -467,7 +450,7 @@ x=100
 // }
 
 // console.log(`the closeset to 100 is ${Numbers(90,101)} `);
-
+// ==============================================================
 
 // question no 29
 
@@ -485,6 +468,7 @@ x=100
 // }
 
 // integer(23,236,73)
+// ==============================================================
 
 // question no 30
 
@@ -495,6 +479,7 @@ x=100
 // }
 
 // console.log(Integers(-45,-56));
+// ==============================================================
 
 // question no 31
 
@@ -510,6 +495,7 @@ x=100
 // }
 
 // console.log(newStr)
+// ==============================================================
 
 // question no 32
 
@@ -536,6 +522,7 @@ x=100
 // let concatString = str3 + str4;
 
 // console.log(concatString);
+// ==============================================================
 
 // question no 33
 // let cityName= "Los Angeles "
@@ -545,15 +532,14 @@ x=100
 // for (let i=0; i<cityName.length; i++){
 //     if (cityName.indexOf("Los")!=-1|| cityName.indexOf("New")!=-1){
 //         isTrue = true
-   
+
 // }
 // }
 
 // if (isTrue){
 //     console.log(cityName)
-// } 
-
-
+// }
+// ==============================================================
 
 // question no 34
 // const array1 = [12, 12, 23, 34, 45, 56];
@@ -568,6 +554,7 @@ x=100
 
 // }
 // console.log(array5);
+// ==============================================================
 
 // question no 35
 // let isTrue=false
@@ -582,6 +569,7 @@ x=100
 // }
 
 // console.log(`the result is ${isTrue}`);
+// ==============================================================
 
 // question no 36
 // let a = [12, 34, 54, 34, 23, 45, 64];
@@ -596,6 +584,7 @@ x=100
 // }
 
 // console.log(a);
+// ==============================================================
 
 // question no 37
 
@@ -610,9 +599,7 @@ x=100
 // }
 
 // console.log(Number(34))
-
-
-
+// ==============================================================
 
 // question no 39
 
@@ -630,13 +617,12 @@ x=100
 //         oddArray[k]=array[i]
 //         k++
 //     }
-    
 
 // }
 // console.log(evenArray,oddArray);
+// ==============================================================
 
-
-// question no 40 
+// question no 40
 
 // let array1=[1,2,342,23,12,3]
 
@@ -654,14 +640,14 @@ x=100
 // }
 
 // console.log(commArray);
-
+// ==============================================================
 
 // question no 41
 
 // let Symbols="+-++"
 // let raskeshMind=0
 // for (i=0; i<Symbols.length; i++){
-    
+
 //     if(Symbols[i]==="+"){
 //         raskeshMind+=1
 //     } else{
@@ -670,4 +656,131 @@ x=100
 // }
 
 // console.log(raskeshMind);
+// ==============================================================
 
+// question no 4
+
+// let str = "Robin Singh from USA."
+// let  strDashed=""
+// let lowerStr=""
+
+// for (let i=0; i<str.length; i++){
+//     if (str[i]===" "){
+//         strDashed+="-"
+//     } else{
+//         strDashed+=str[i]
+//     }
+//     if (str.charCodeAt(i)<90 && strDashed.charCodeAt(i)!=32 && strDashed.charCodeAt(i)!=45 && strDashed.charCodeAt(i)!=46  ){
+//         let character=String.fromCharCode(strDashed.charCodeAt(i)-65+97)
+//         lowerStr+=character
+
+//     } else {
+//         lowerStr+=strDashed[i]
+//     }
+// }
+// console.log(lowerStr);
+// ==============================================================
+// question no 18
+
+// let str = "abcD efgJiKHLi abc gasdas";
+// let replace=null
+
+// let newStr =""
+// for (let i = 0; i < str.length; i++) {
+//     let char = str[i];
+
+//    if (i===0){
+//         let character=String.fromCharCode(str.charCodeAt(i)-97+65)
+//         newStr+=character
+//         replace = false;
+
+//    } else if (char === " ") {
+//         replace = true;
+//         newStr += char;
+//     }
+//       else if (replace && str.charCodeAt(i)>=97) {
+//         let character=String.fromCharCode(str.charCodeAt(i)-97+65)
+//         newStr+=character
+//         replace = false;
+//     } else {
+//         newStr += char;
+//     }
+// }
+// console.log(newStr);
+// ==============================================================
+
+// question no 16
+// const str = "hhhjjjuunkkkhh";
+// let temp = str[0];
+// let count = 0;
+
+// let newStr = "";
+
+// for (let i = 0; i <= str.length ; i++) {
+
+//   if (str[i] === temp) {
+//     count += 1;
+//   } else if (str[i] != temp) {
+//     newStr += `${temp}${count}`;
+//     temp = str[i];
+//     count = 1;
+
+//     console.log(count);
+//   }
+// }
+
+// console.log(newStr);
+// ==============================================================
+
+// question no 17
+// const str = "jjhhhfffsssskkk";
+// let temp = str[0];
+// let count = 0;
+
+// let newStr = "";
+
+// for (let i = 0; i <= str.length ; i++) {
+
+//     if (str[i] != temp) {
+//     newStr += `${temp}`;
+//     temp = str[i];
+//   }
+// }
+
+// console.log(newStr);
+// ==============================================================
+
+// question 15
+// let str = "Vinayak is good boy";
+
+// let str2 = "";
+
+// let newstr = str.split(" ");
+
+// for (let i = 0; i < newstr.length; i++) {
+//   str2 += newstr[newstr.length - 1 - i] + " ";
+// }
+
+// console.log(str2);
+// ==============================================================
+
+// question no 1
+// let str = '<a href="javascript-string-exercise-17.php" target="_blank">';
+// let newStr = "";
+// for (let i = 0; i < str.length; i++) {
+//   switch (str[i]) {
+//     case "<":
+//       newStr += "&lt";
+//       break;
+//     case '"':
+//       newStr += "&quot;";
+//       break;
+//     case '>':
+//       newStr += "&gt;";
+//       break;
+//    default:
+//     newStr+=str[i]
+//   }
+// }
+
+// console.log(newStr);
