@@ -6,13 +6,13 @@
 
 // question no 21
 
-// function arraySum (array){
-//     let sum=0
-//     for (let i=0; i<array.length; i++){
-//         sum+=array[i]
-//     }
+function arraySum (array){
+    let sum=0
+    for (let i=0; i<array.length; i++){
+        sum+=array[i]
+    }
 
-//     return console.log(`the sum is ${sum}`)
-// }
-// let array =[12,32,43]
-// arraySum(array)
+    return console.log(`the sum is ${sum}`)
+}
+let array =[12,32,43]
+arraySum(array)

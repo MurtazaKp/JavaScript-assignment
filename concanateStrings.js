@@ -2,26 +2,26 @@
 
 // question no 32
 
-// let str1 = "murtaza";
+let str1 = "murtaza";
 
-// let str2 = "khopoliwala";
+let str2 = "khopoliwala";
 
-// let str3 = "";
+let str3 = "";
 
-// let str4 = "";
+let str4 = "";
 
-// for (let i = 0; i < str1.length; i++) {
-//   if (str1[i] != str1[0]) {
-//     str3 += str1[i];
-//   }
-// }
+for (let i = 0; i < str1.length; i++) {
+  if (str1[i] != str1[0]) {
+    str3 += str1[i];
+  }
+}
 
-// for (let i = 0; i < str2.length; i++) {
-//   if (str2[i] != str2[0]) {
-//     str4 += str2[i];
-//   }
-// }
+for (let i = 0; i < str2.length; i++) {
+  if (str2[i] != str2[0]) {
+    str4 += str2[i];
+  }
+}
 
-// let concatString = str3 + str4;
+let concatString = str3 + str4;
 
-// console.log(concatString);
+console.log(concatString);

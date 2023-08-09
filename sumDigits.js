@@ -2,14 +2,14 @@
 
 // question no 37
 
-// function Number(num){
-//     num=num+""
+function Number(num){
+    num=num+""
 
-//     num=[...num]
+    num=[...num]
 
-//     let sum =parseInt(num[0])+parseInt(num[1])
+    let sum =parseInt(num[0])+parseInt(num[1])
 
-//     return sum
-// }
+    return sum
+}
 
-// console.log(Number(34))
+console.log(Number(34))

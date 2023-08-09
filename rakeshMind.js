@@ -17,15 +17,15 @@
 
 
 
-// let Symbols="+-++"
-// let raskeshMind=0
-// for (i=0; i<Symbols.length; i++){
+let Symbols="+-++"
+let raskeshMind=0
+for (i=0; i<Symbols.length; i++){
 
-//     if(Symbols[i]==="+"){
-//         raskeshMind+=1
-//     } else{
-//         raskeshMind-=1
-//     }
-// }
+    if(Symbols[i]==="+"){
+        raskeshMind+=1
+    } else{
+        raskeshMind-=1
+    }
+}
 
-// console.log(raskeshMind);
+console.log(raskeshMind);

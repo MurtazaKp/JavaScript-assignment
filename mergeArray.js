@@ -5,9 +5,8 @@
 
 
 // question no 13
-// let num1 = [1, 2, 3, 4, 5, 6];
-// let num2 = [7, 8, 9, 10, 11, 12];
-// //let a=[1]
-// //let b=[1, 2]
+let num1 = [1, 2, 3, 4, 5, 6];
+let num2 = [7, 8, 9, 10, 11, 12];
 
-// let numb3 = [...num1, ...num2];
+
+let numb3 = [...num1, ...num2];

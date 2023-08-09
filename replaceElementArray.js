@@ -4,8 +4,8 @@
 
 
 // question no 11 complete
-// let mobiles = ["iPhone", "Samsung", "Pixel"];
+let mobiles = ["iPhone", "Samsung", "Pixel"];
 
-// mobiles[2] = "Nokia";
+mobiles[2] = "Nokia";
 
-// console.log(mobiles)
+console.log(mobiles)

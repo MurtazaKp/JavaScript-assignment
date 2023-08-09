@@ -2,15 +2,15 @@
 
 // question no 31
 
-// let str ="Mobile"
+let str ="Mobile"
 
-// let newStr=""
+let newStr=""
 
-// for (let i=0; i<str.length; i++){
+for (let i=0; i<str.length; i++){
 
-//   if (str[i]!=str[0] && str[i]!=str[str.length-1]){
-//     newStr+=str[i]
-//   }
-// }
+  if (str[i]!=str[0] && str[i]!=str[str.length-1]){
+    newStr+=str[i]
+  }
+}
 
-// console.log(newStr)
+console.log(newStr)

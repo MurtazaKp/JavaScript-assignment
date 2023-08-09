@@ -5,29 +5,29 @@
 
 // // question no 23
 
-// let days =["sunday","monday","tuesday","wednesday","thrusday","friday","saturday"]
+let days =["sunday","monday","tuesday","wednesday","thrusday","friday","saturday"]
 
-// let date=new Date()
+let date=new Date()
 
-// let day = days[date.getDay()];
+let day = days[date.getDay()];
 
-// let hour=date.getHours()
+let hour=date.getHours()
 
-// let minutes = date.getMinutes()
+let minutes = date.getMinutes()
 
-// let seconds= date.getSeconds()
+let seconds= date.getSeconds()
 
-// let state=""
+let state=""
 
-// function State(){
-//   if (hour<12 ){
-//     state="AM"
-//   } else {
-//     state ="PM"
-//   }
-// }
+function State(){
+  if (hour<12 ){
+    state="AM"
+  } else {
+    state ="PM"
+  }
+}
 
-// State()
+State()
 
-// console.log(`Today is ${day}
-// Current time is : ${hour} ${state} : ${minutes}  : ${seconds}`)
+console.log(`Today is ${day}
+Current time is : ${hour} ${state} : ${minutes}  : ${seconds}`)

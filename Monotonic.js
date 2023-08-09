@@ -10,21 +10,21 @@
 
 // question no 9
 
-// let array = [1,3,2];
-// let ismonatic = null;
-// let ascending = false;
-// let descending = false;
+let array = [1,3,2];
+let ismonatic = null;
+let ascending = false;
+let descending = false;
 
-// for (let i = 0; i < array.length; i++) {
-//   if (array[i] < array[i + 1]) {
-//     ascending = true;
-//   } else if (array[i] > array[i + 1]) {
-//     descending = true;
-//   }
-// }
+for (let i = 0; i < array.length; i++) {
+  if (array[i] < array[i + 1]) {
+    ascending = true;
+  } else if (array[i] > array[i + 1]) {
+    descending = true;
+  }
+}
 
-// if (ascending && descending) {
-//   console.log(`Given Array is not Monotonic`);
-// } else {
-//   console.log(`Given Array is  Monotonic`);
-// }
+if (ascending && descending) {
+  console.log(`Given Array is not Monotonic`);
+} else {
+  console.log(`Given Array is  Monotonic`);
+}
